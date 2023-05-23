@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 function convertSnakeToCamelCase(str) {
-    str.replace(/(?<=[a-z])_([a-z])/g, (group) => group.toUpperCase().replace('_', ''));
+    return str.replace(/(?<=[a-z])_([a-z])/g, (group) => group.toUpperCase().replace('_', ''));
 }
 
 function convertFileContent(filePath) {
