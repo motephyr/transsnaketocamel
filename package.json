@@ -1,0 +1,29 @@
+{
+  "name": "transsnaketocamel",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "transsnaketocamel": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motephyr/transsnaketocamel.git"
+  },
+  "keywords": [
+    "tranform",
+    "snakecase",
+    "camelcase",
+    "javascript",
+    "file"
+  ],
+  "author": "motephyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motephyr/transsnaketocamel/issues"
+  },
+  "homepage": "https://github.com/motephyr/transsnaketocamel#readme"
+}
